@@ -8,7 +8,7 @@ if len(sys.argv) == 2:
     print("User provided units")
 else:
     # Default units
-    units = 100
+    units = 120
     print("Default units used")
 
 # Rate per unit
@@ -19,4 +19,5 @@ bill = units * rate
 
 print("Units Consumed:", units)
 print("Electricity Bill (₹):", bill)
+
 
